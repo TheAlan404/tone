@@ -1,0 +1,28 @@
+[INFO]: Started logging...
+June 30th 2020, 12:28:48 seed: 1971525472
+June 30th 2020, 12:28:53 [INFO]: Alan404 disconnected
+June 30th 2020, 12:28:53 [ERR]: Client 127.0.0.1:56955 : Error: This socket has been ended by the other party
+    at Socket.writeAfterFIN [as write] (net.js:452:14)
+    at Framer.ondata (C:\Users\KEMAL\Desktop\tone\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at Framer.emit (events.js:310:20)
+    at addChunk (C:\Users\KEMAL\Desktop\tone\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\KEMAL\Desktop\tone\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at Framer.Readable.push (C:\Users\KEMAL\Desktop\tone\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at Framer.Transform.push (C:\Users\KEMAL\Desktop\tone\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at Framer._transform (C:\Users\KEMAL\Desktop\tone\node_modules\minecraft-protocol\src\transforms\framing.js:20:10)
+    at Framer.Transform._read (C:\Users\KEMAL\Desktop\tone\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at Framer.Transform._write (C:\Users\KEMAL\Desktop\tone\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+    at doWrite (C:\Users\KEMAL\Desktop\tone\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\KEMAL\Desktop\tone\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Framer.Writable.write (C:\Users\KEMAL\Desktop\tone\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at Compressor.ondata (C:\Users\KEMAL\Desktop\tone\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at Compressor.emit (events.js:310:20)
+    at addChunk (C:\Users\KEMAL\Desktop\tone\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\KEMAL\Desktop\tone\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at Compressor.Readable.push (C:\Users\KEMAL\Desktop\tone\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at Compressor.Transform.push (C:\Users\KEMAL\Desktop\tone\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at Deflate.cb (C:\Users\KEMAL\Desktop\tone\node_modules\minecraft-protocol\src\transforms\compression.js:28:14)
+    at Deflate.zlibBufferOnEnd (zlib.js:149:10)
+    at Deflate.emit (events.js:322:22)
+June 30th 2020, 12:28:57 [INFO]: Alan404 (127.0.0.1) connected
+June 30th 2020, 12:28:57 [INFO]: position written, player spawning...
